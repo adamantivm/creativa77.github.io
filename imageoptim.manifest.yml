@@ -1,10 +1,10 @@
 ---
-build/fonts/fontawesome-webfont.svg: 2015-01-28 10:03:41.850713831 -03:00
-build/fonts/bootstrap/glyphicons-halflings-regular.svg: 2015-01-28 10:03:41.410713842
+build/fonts/fontawesome-webfont.svg: 2015-01-28 10:06:31.490709384 -03:00
+build/fonts/bootstrap/glyphicons-halflings-regular.svg: 2015-01-28 10:06:30.598709407
   -03:00
-build/img/logo-1667f633.png: 2015-01-28 09:52:12.354731904 -03:00
-build/img/carousel/1-f3a14466.jpg: 2015-01-28 09:52:08.826731997 -03:00
-build/img/carousel/2-1270c5de.jpg: 2015-01-28 09:52:09.314731984 -03:00
-build/img/clients/yujinrobot-5c4dd4d1.png: 2015-01-28 09:52:09.642731975 -03:00
-build/img/clients/savioke-4982a0fd.png: 2015-01-28 09:52:11.158731936 -03:00
-build/img/clients/qq-cc568e66.png: 2015-01-28 09:52:09.902731968 -03:00
+build/img/logo.png: 2015-01-28 10:06:34.698709300 -03:00
+build/img/carousel/1.jpg: 2015-01-28 10:06:30.462709411 -03:00
+build/img/carousel/2.jpg: 2015-01-28 10:06:31.058709395 -03:00
+build/img/clients/savioke.png: 2015-01-28 10:06:33.102709341 -03:00
+build/img/clients/yujinrobot.png: 2015-01-28 10:06:31.618709380 -03:00
+build/img/clients/qq.png: 2015-01-28 10:06:31.610709381 -03:00
