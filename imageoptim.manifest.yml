@@ -1,11 +1,13 @@
 ---
-build/fonts/fontawesome-webfont.svg: 2015-01-28 11:07:36.226613321 -03:00
-build/fonts/bootstrap/glyphicons-halflings-regular.svg: 2015-01-28 11:07:35.922613329
+build/fonts/fontawesome-webfont.svg: 2015-01-29 10:35:37.065229733 -03:00
+build/fonts/bootstrap/glyphicons-halflings-regular.svg: 2015-01-29 10:35:36.613229745
   -03:00
 build/img/logo.png: 2015-01-28 10:06:34.698709300 -03:00
 build/img/logo_white.png: 2015-01-28 11:07:36.098613324 -03:00
-build/img/carousel/1.jpg: 2015-01-28 10:06:30.462709411 -03:00
-build/img/carousel/2.jpg: 2015-01-28 10:06:31.058709395 -03:00
+build/img/carousel/1@2x.jpg: 2015-01-29 10:35:13.181230359 -03:00
+build/img/carousel/2@2x.jpg: 2015-01-29 10:35:13.393230353 -03:00
+build/img/carousel/1.jpg: 2015-01-29 10:35:13.489230351 -03:00
+build/img/carousel/2.jpg: 2015-01-29 10:35:13.593230348 -03:00
 build/img/clients/savioke.png: 2015-01-28 10:06:33.102709341 -03:00
 build/img/clients/yujinrobot.png: 2015-01-28 10:06:31.618709380 -03:00
 build/img/clients/qq.png: 2015-01-28 10:06:31.610709381 -03:00
