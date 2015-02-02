@@ -1,0 +1,6 @@
+.projects .active > a {
+  font-weight: bold;
+}
+.projects .affix {
+  top: 0;
+}

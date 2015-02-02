@@ -8251,6 +8251,13 @@ button.close {
   border-radius: 3px;
 }
 
+.projects .active > a {
+  font-weight: bold;
+}
+.projects .affix {
+  top: 0;
+}
+
 /* ==========================================================================
  * Media queries to target specific breakpoints
 /* ==========================================================================
@@ -8260,6 +8267,7 @@ button.close {
 */
 body {
   font-family: 'Noto Sans', sans-serif;
+  line-height: 1.6em;
   font-weight: 400;
 }
 
@@ -8291,8 +8299,9 @@ footer {
   background: #6b2875;
   padding: 40px 0;
 }
-footer a {
+footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
   color: white;
+  text-decoration: none;
 }
 footer .social-links {
   font-size: 30px;
