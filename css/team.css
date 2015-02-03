@@ -1,0 +1,11 @@
+.team .content .person {
+  margin-bottom: 30px;
+}
+.team .content .person h4 {
+  margin-top: 0;
+}
+.team .content .person img {
+  margin: 0 10px;
+  width: 120px;
+  border-radius: 3px;
+}

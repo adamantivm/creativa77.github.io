@@ -2170,47 +2170,6 @@
   content: "";
 }
 
-.visible {
-  display: block !important;
-  opacity: 1;
-  height: auto;
-}
-
-.cloak {
-  display: none !important;
-  opacity: 0;
-  height: 0;
-}
-
-::-moz-selection{
-  color: white;
-  background: green;
-}
-
-::selection {
-  color: white;
-  background: green;
-}
-
-::-moz-selection {
-  color: white;
-  background: green;
-}
-
-.alignleft, .alignright {
-  margin-bottom: 1em;
-}
-
-.alignleft {
-  margin-right: 1em;
-  float: left;
-}
-
-.alignright {
-  margin-left: 1em;
-  float: right;
-}
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -8269,6 +8228,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.6em;
   font-weight: 400;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
