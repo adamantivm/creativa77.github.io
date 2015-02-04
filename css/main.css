@@ -8188,6 +8188,7 @@ button.close {
   background: #dfdfdf;
   line-height: 150px;
   text-align: center;
+  margin-bottom: -2em;
 }
 .clients .heading {
   margin: 0;
@@ -8260,8 +8261,8 @@ header.navbar .navbar-brand {
 }
 
 footer {
-  min-height: 300px;
-  line-height: 30px;
+  min-height: 150px;
+  line-height: 50px;
   color: #fff;
   background: #6b2875;
   padding: 40px 0;
