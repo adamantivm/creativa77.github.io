@@ -8218,6 +8218,25 @@ button.close {
   top: 0;
 }
 
+.contactInfo {
+  top: 0;
+}
+
+/* Don't affix on mobile */
+@media (max-width: 991px) {
+  .contactInfo.affix {
+    position: static;
+    width: auto;
+  }
+}
+.contactInfo.affix-bottom {
+  position: absolute;
+}
+
+#ekumenOfficeMap {
+  height: 180px;
+}
+
 /* ==========================================================================
  * Media queries to target specific breakpoints
 /* ==========================================================================
