@@ -4,3 +4,6 @@
 .projects .affix {
   top: 0;
 }
+.projects .affix-bottom {
+  position: absolute;
+}
