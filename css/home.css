@@ -11,10 +11,50 @@
   margin-bottom: 30px;
   text-align: center;
 }
-
-.work .thumbnail {
+.work .workExample {
+  position: relative;
+  box-shadow: 0px 2px 8px -2px #333333;
+  background: url("../img/earth.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 3px;
   margin-top: 20px;
-  min-height: 450px;
+}
+.work .workExample .heading {
+  color: #fff;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 200px 20px 0;
+  height: 100px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  text-shadow: 1px 1px 1px #333333;
+}
+.work .workExample:before {
+  position: absolute;
+  opacity: 0.3;
+  content: '';
+  background: linear-gradient(120deg, #96639c, transparent), linear-gradient(180deg, transparent, black);
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  transition: opacity 500ms;
+}
+.work .workExample:hover::before {
+  opacity: 0.1;
+}
+.work .col-sm-3:nth-child(2) .workExample {
+  background-image: url("../img/keyboard.jpg");
+}
+.work .col-sm-3:nth-child(3) .workExample {
+  background-image: url("../img/webrobotics.jpg");
+  background-position: bottom left;
+}
+.work .col-sm-3:nth-child(4) .workExample {
+  background-image: url("../img/tablet.jpg");
 }
 
 .clients {
