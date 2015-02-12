@@ -81,17 +81,17 @@
   opacity: 0.1;
 }
 .work .work-panel.work-real-time {
-  background-image: url("../img/earth.jpg");
+  background-image: url("../images/earth.jpg");
 }
 .work .work-panel.work-simple {
-  background-image: url("../img/keyboard.jpg");
+  background-image: url("../images/keyboard.jpg");
 }
 .work .work-panel.work-robotics {
-  background-image: url("../img/webrobotics.jpg");
+  background-image: url("../images/webrobotics.jpg");
   background-position: bottom left;
 }
 .work .work-panel.work-android {
-  background-image: url("../img/tablet.jpg");
+  background-image: url("../images/tablet.jpg");
 }
 
 .clients {
