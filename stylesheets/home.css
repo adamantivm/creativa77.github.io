@@ -67,16 +67,18 @@
   margin-bottom: 30px;
   text-align: center;
 }
-.work .work-panel {
+.work .work-panel, .work .work-panel:active, .work .work-panel:visited, .work .work-panel:hover {
   position: relative;
+  display: block;
   box-shadow: 0px 2px 8px -2px #333333;
   background: #dfdfdf no-repeat center center;
   background-size: cover;
   border-radius: 3px;
   margin-top: 20px;
   min-height: 350px;
+  text-decoration: none;
 }
-.work .work-panel .heading {
+.work .work-panel .heading, .work .work-panel:active .heading, .work .work-panel:visited .heading, .work .work-panel:hover .heading {
   color: #fff;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -87,7 +89,7 @@
   text-align: center;
   text-shadow: 1px 1px 1px #333333;
 }
-.work .work-panel:before {
+.work .work-panel:before, .work .work-panel:active:before, .work .work-panel:visited:before, .work .work-panel:hover:before {
   position: absolute;
   opacity: 0.3;
   content: '';
@@ -100,7 +102,7 @@
   z-index: 1;
   transition: opacity 500ms;
 }
-.work .work-panel:hover::before {
+.work .work-panel:hover::before, .work .work-panel:active:hover::before, .work .work-panel:visited:hover::before, .work .work-panel:hover:hover::before {
   opacity: 0.1;
 }
 .work .work-panel.work-real-time {
