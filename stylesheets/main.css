@@ -8170,8 +8170,11 @@ button.close {
 }
 
 .home-header {
-  background: #0082be;
   position: relative;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  margin: auto;
 }
 
 .scroll-down, .scroll-down:hover, .scroll-down:active, .scroll-down:visited {
@@ -8197,35 +8200,75 @@ button.close {
 }
 
 .carousel-indicators {
-  width: auto;
-  margin-left: 30px;
-  left: 0;
+  width: 100%;
+  left: 50%;
+  right: auto;
+  margin: 0;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 10px 15px;
+  text-align: left;
+  bottom: 0;
+}
+@media (min-width: 768px) {
+  .carousel-indicators {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-indicators {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-indicators {
+    width: 1170px;
+  }
 }
 
 .carousel-caption {
-  width: 50%;
-  margin-left: 30px;
-  left: 0;
+  width: 100%;
+  left: 50%;
   right: auto;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 0 15px;
   text-align: left;
   color: #fff;
+}
+@media (min-width: 768px) {
+  .carousel-caption {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-caption {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-caption {
+    width: 1170px;
+  }
 }
 .carousel-caption h3 {
   color: #fff;
   font-size: 3em;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .carousel-caption h3 {
-    font-size: 2em;
+    font-size: 1em;
+    font-size: 5vw;
   }
 }
 .carousel-caption p {
   margin-top: 0.3em;
   font-size: 1.5em;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .carousel-caption p {
-    font-size: 1em;
+    font-size: 0.8em;
+    font-size: 3vw;
   }
 }
 
