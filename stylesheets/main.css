@@ -8277,56 +8277,43 @@ button.close {
   margin-bottom: 30px;
   text-align: center;
 }
-.work .work-panel, .work .work-panel:active, .work .work-panel:visited, .work .work-panel:hover {
-  position: relative;
-  display: block;
-  box-shadow: 0px 2px 8px -2px #333333;
-  background: #dfdfdf no-repeat center center;
-  background-size: cover;
-  border-radius: 3px;
-  margin-top: 20px;
-  min-height: 350px;
-  text-decoration: none;
-}
-.work .work-panel .heading, .work .work-panel:active .heading, .work .work-panel:visited .heading, .work .work-panel:hover .heading {
-  color: #fff;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  padding: 220px 20px 20px 20px;
-  position: relative;
-  word-break: break-word;
-  z-index: 2;
-  text-align: center;
-  text-shadow: 1px 1px 1px #333333;
-}
-.work .work-panel:before, .work .work-panel:active:before, .work .work-panel:visited:before, .work .work-panel:hover:before {
-  position: absolute;
-  opacity: 0.3;
-  content: '';
-  background: linear-gradient(120deg, #96639c, transparent), linear-gradient(180deg, transparent, black);
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  transition: opacity 500ms;
-}
-.work .work-panel:hover::before, .work .work-panel:active:hover::before, .work .work-panel:visited:hover::before, .work .work-panel:hover:hover::before {
-  opacity: 0.1;
-}
-.work .work-panel.work-real-time {
-  background-image: url("../images/earth.jpg");
-}
-.work .work-panel.work-simple {
-  background-image: url("../images/keyboard.jpg");
-}
-.work .work-panel.work-robotics {
-  background-image: url("../images/webrobotics.jpg");
-  background-position: bottom left;
-}
-.work .work-panel.work-android {
-  background-image: url("../images/tablet.jpg");
+@media (min-width: 1200px) {
+  .work .work-item {
+    background-size: auto 134px;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+  }
+  .work .work-item:last-child {
+    margin-bottom: 0;
+  }
+  .work .work-item:nth-child(even) {
+    text-align: left;
+    background-position: center right;
+    padding-right: 300px;
+  }
+  .work .work-item:nth-child(odd) {
+    text-align: right;
+    background-position: center left;
+    padding-left: 300px;
+  }
+  .work .work-item:nth-child(1) {
+    background-image: linear-gradient(90deg, transparent 0, white 300px), url("../images/earth.jpg");
+  }
+  .work .work-item:nth-child(2) {
+    background-image: linear-gradient(-90deg, transparent 0, white 300px), url("../images/keyboard.jpg");
+  }
+  .work .work-item:nth-child(3) {
+    background-image: linear-gradient(90deg, transparent 0, white 300px), url("../images/tablet.jpg");
+  }
+  .work .work-item:nth-child(4) {
+    background-image: linear-gradient(-90deg, transparent 0, white 300px), url("../images/webrobotics.jpg");
+  }
+  .work .work-item:nth-child(5) {
+    background-image: linear-gradient(90deg, transparent 0, white 300px), url("../images/earth.jpg");
+  }
+  .work .work-item:nth-child(6) {
+    background-image: linear-gradient(-90deg, transparent 0, white 300px), url("../images/keyboard.jpg");
+  }
 }
 
 .clients {
