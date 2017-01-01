@@ -5,6 +5,8 @@ gem "middleman"
 gem "middleman-livereload"
 gem "oj"
 
+gem "rack-cors"
+
 # Blogging
 gem "middleman-blog"
 gem "nokogiri"

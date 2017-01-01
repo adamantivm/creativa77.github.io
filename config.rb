@@ -13,6 +13,16 @@ set :relative_links,        true
 require "builder"
 page "/sitemap.xml", :layout => false
 
+require "rack/cors"
+use Rack::Cors do
+  allow do
+    origins '*'
+    resource '*', 
+      headers: :any, 
+      methods: [:get, :options]
+  end
+end
+
 # Allow HTML in the Markdown
 # see https://github.com/middleman/middleman/issues/1221#issuecomment-38104894
 # Note that Markdown formatting syntax is not processed within block-level HTML

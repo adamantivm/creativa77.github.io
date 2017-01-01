@@ -7,6 +7,7 @@ layout: page
 
 <h1>Meet the team</h1>
 
+<%= javascript_include_tag 'team' %>
 <%= image_tag("team/team.jpg", :alt => "Ekumen team",
   :class => "img-responsive") %>
 
@@ -15,3 +16,8 @@ layout: page
     <%= teammate.body %>
   </div>
 <% end %>
+
+<h1>Ekumen in 360</h1>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe allowfullscreen class="embed-responsive-item" src="//storage.googleapis.com/vrview/2.0/index.html?image=http://192.168.0.14:4567/images/pano-indoor-huge.jpg"></iframe>
+</div>
